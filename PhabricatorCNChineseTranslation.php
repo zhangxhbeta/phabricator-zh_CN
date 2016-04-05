@@ -6411,7 +6411,7 @@ return array(
   'Browse Viewer Projects' => null,
 
   // src/applications/audit/application/PhabricatorAuditApplication.php:18
-  'Browse and Audit Commits' => '查看并审查提交',
+  'Browse and Audit Commits' => '查看并复查提交的代码',
 
   // src/applications/differential/view/DifferentialChangesetListView.php:137
   'Browse in Diffusion' => null,
@@ -8041,7 +8041,7 @@ return array(
 
   // src/applications/config/controller/PhabricatorConfigController.php:14
   // src/applications/harbormaster/controller/HarbormasterBuildViewController.php:159
-  'Configuration' => null,
+  '配置' => null,
 
   // src/applications/config/option/PhabricatorSecurityConfigOptions.php:26
   // src/applications/config/check/PhabricatorSecuritySetupCheck.php:75
@@ -9461,7 +9461,7 @@ return array(
   // src/applications/config/controller/PhabricatorConfigDatabaseStatusController.php:149
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:118
   // src/applications/config/controller/PhabricatorConfigController.php:20
-  'Database' => null,
+  '数据库' => null,
 
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:17
   // src/applications/config/controller/PhabricatorConfigDatabaseIssueController.php:148
@@ -11652,7 +11652,7 @@ return array(
   // src/applications/console/plugin/DarkConsoleServicesPlugin.php:121
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:185
   // src/applications/maniphest/constants/__tests__/ManiphestTaskStatusTestCase.php:30
-  'Empty' => '清空',
+  'Empty' => '空',
 
   // src/applications/ponder/controller/PonderAnswerSaveController.php:28
   'Empty Answer' => null,
@@ -13089,7 +13089,7 @@ return array(
   'Gestures' => null,
 
   // src/applications/project/application/PhabricatorProjectApplication.php:10
-  'Get Organized' => null,
+  'Get Organized' => '组织的井井有条',
 
   // src/applications/phragment/controller/PhragmentVersionController.php:113
   // src/applications/phragment/controller/PhragmentVersionController.php:124
@@ -13579,7 +13579,7 @@ return array(
   'Host Repository on Phabricator' => null,
 
   // src/applications/diffusion/application/PhabricatorDiffusionApplication.php:10
-  'Host and Browse Repositories' => null,
+  '管理仓库' => null,
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:36
   'Host for SMTP.' => null,
@@ -21182,7 +21182,7 @@ return array(
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:263
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:571
-  'Recent Commits' => null,
+  '最近代码提交' => null,
 
   // src/applications/owners/controller/PhabricatorOwnersDetailController.php:95
   'Recent Commits in Package' => null,
@@ -21194,7 +21194,7 @@ return array(
   'Recent Subscriptions' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:252
-  'Recent Tasks' => null,
+  '最新任务' => null,
 
   // src/applications/maniphest/controller/ManiphestReportController.php:629
   'Recently Closed' => null,
@@ -22512,7 +22512,7 @@ return array(
   'Review' => null,
 
   // src/applications/differential/application/PhabricatorDifferentialApplication.php:14
-  'Review Code' => '复查代码',
+  'Review Code' => '审查代码',
 
   // src/applications/pholio/application/PhabricatorPholioApplication.php:14
   'Review Mocks and Design' => '原型与设计',
@@ -30012,7 +30012,7 @@ return array(
   'User Account' => '用户账户',
 
   // src/applications/people/application/PhabricatorPeopleApplication.php:10
-  'User Accounts and Profiles' => '用户账户和偏好',
+  'User Accounts and Profiles' => '用户账户和资料',
 
   // src/applications/people/query/PhabricatorPeopleLogSearchEngine.php:190
   'User Activity Logs' => null,
@@ -30918,7 +30918,7 @@ return array(
   'Width' => null,
 
   // src/applications/phriction/application/PhabricatorPhrictionApplication.php:10
-  'Wiki' => '维基',
+  'Wiki' => 'Wiki',
 
   // src/applications/phriction/herald/PhrictionDocumentHeraldAdapter.php:89
   'Wiki Document %d' => null,
