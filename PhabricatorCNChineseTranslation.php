@@ -26,13 +26,13 @@ return array(
   '"%s"' => null,
 
   // src/applications/auth/view/PhabricatorAuthAccountView.php:54
-  '"%s" Account' => null,
+  '"%s" Account' => '"%s" 账户',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:93
-  '"%s" Disabled' => null,
+  '"%s" Disabled' => '"%s" 已禁止',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:94
-  '"%s" Disabled in Development' => null,
+  '"%s" Disabled in Development' => '"%s" 在开发模式被禁止',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:73
   '"%s" Enabled' => null,
@@ -42,20 +42,20 @@ return array(
 
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:43
   // src/applications/phragment/controller/PhragmentSnapshotViewController.php:94
-  '"%s" Snapshot' => null,
+  '"%s" Snapshot' => '"%s" 快照',
 
   // src/applications/people/storage/PhabricatorExternalAccount.php:127
-  '"%s" User' => null,
+  '"%s" User' => '"%s" 用户',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:900
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:913
   '"%s" date can not be parsed.' => '"%s" 日期不能被解析.',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:81
-  '"%s" is currently disabled, but should probably be enabled.' => null,
+  '"%s" is currently disabled, but should probably be enabled.' => '"%s" 需要启用，但当前被设置为禁用',
 
   // src/applications/cache/spec/PhabricatorOpcodeCacheSpec.php:61
-  '"%s" is currently enabled, but should probably be disabled.' => null,
+  '"%s" is currently enabled, but should probably be disabled.' => '"%s" 需要禁用，但当前被设置为启用',
 
   // src/applications/search/engine/PhabricatorApplicationSearchEngine.php:921
   '"%s" must be a date before "%s".' => null,
@@ -87,7 +87,7 @@ return array(
   '$PATH Component Unusable' => null,
 
   // src/applications/system/action/PhabricatorSystemAction.php:33
-  '%d / hour' => '%d / 小时',
+  '%d / hour' => '%d / 时',
 
   // src/applications/system/action/PhabricatorSystemAction.php:30
   '%d / minute' => '%d / 分',
@@ -121,7 +121,7 @@ return array(
   '%d Detail(s)' => null,
 
   // src/applications/differential/customfield/DifferentialLintField.php:213
-  '%d Error(s)' => '%d个错误',
+  '%d Error(s)' => '%d 个错误',
 
   // src/applications/releeph/controller/product/ReleephProductViewController.php:118
   '%d Open Pull Request(s)' => null,
@@ -133,13 +133,13 @@ return array(
   '%d Postponed' => null,
 
   // src/applications/differential/customfield/DifferentialLintField.php:216
-  '%d Warning(s)' => '%d个警告',
+  '%d Warning(s)' => '%d 个警告',
 
   // src/applications/calendar/storage/__tests__/PhabricatorCalendarHolidayTestCase.php:35
   '%d business days since \'%s\'' => null,
 
   // src/applications/releeph/field/specification/ReleephDiffChurnFieldSpecification.php:66
-  '%d comment(s)' => null,
+  '%d comment(s)' => '%d 个评论',
 
   // src/applications/releeph/field/specification/ReleephDiffSizeFieldSpecification.php:54
   '%d line(s) and %d path(s) contain changes to test code:\n' => null,
@@ -157,10 +157,10 @@ return array(
   '%d rejection(s)' => null,
 
   // src/applications/config/view/PhabricatorSetupIssueView.php:521
-  '%d related link(s):' => null,
+  '%d related link(s):' => '%d 个相关链接',
 
   // src/applications/releeph/field/specification/ReleephDiffChurnFieldSpecification.php:69
-  '%d update(s)' => '%d个更新',
+  '%d update(s)' => '%d 个更新',
 
   // src/applications/config/controller/PhabricatorConfigCacheController.php:66
   // src/applications/config/controller/PhabricatorConfigCacheController.php:143
@@ -275,10 +275,10 @@ return array(
   '%s Help' => null,
 
   // src/applications/paste/query/PhabricatorPasteSearchEngine.php:139
-  '%s Line(s)' => "%s行",
+  '%s Line(s)' => "%s 行",
 
   // src/applications/config/check/PhabricatorPygmentSetupCheck.php:31
-  '%s Not Found' => "%s没有找到",
+  '%s Not Found' => "%s 没有找到",
 
   // src/applications/config/check/PhabricatorPathSetupCheck.php:34
   '%s Not Set' => null,
@@ -305,7 +305,7 @@ return array(
   '%s Require users to enable \'secure browsing\' on Facebook in order to use Facebook to authenticate with Phabricator. This improves security by preventing an attacker from capturing an insecure Facebook session and escalating it into a Phabricator session. Enabling it is recommended.' => null,
 
   // src/applications/differential/doorkeeper/DifferentialDoorkeeperRevisionFeedStoryPublisher.php:86
-  '%s Review Request' => null,
+  '%s Review Request' => '%s 评审请求',
 
   // src/applications/uiexample/examples/PHUIPropertyListExample.php:81
   '%s Stackered' => null,
@@ -336,10 +336,10 @@ return array(
   '%s accepted %s.' => null,
 
   // src/applications/audit/storage/PhabricatorAuditTransaction.php:240
-  '%s accepted this commit.' => null,
+  '%s accepted this commit.' => '%s 已接受提交',
 
   // src/applications/differential/constants/DifferentialAction.php:32
-  '%s accepted this revision.' => null,
+  '%s accepted this revision.' => '%s 已接受本次评审',
 
   // src/applications/project/storage/PhabricatorProjectTransaction.php:276
   '%s activated %s.' => null,
@@ -369,13 +369,13 @@ return array(
   '%s added %d JIRA issue(s): %s.' => null,
 
   // src/applications/conpherence/storage/ConpherenceTransaction.php:84
-  '%s added %d files(s).' => null,
+  '%s added %d files(s).' => '%s 添加 %d 个文件',
 
   // src/applications/pholio/storage/PholioTransaction.php:194
-  '%s added %d image(s): %s.' => null,
+  '%s added %d image(s): %s.' => '%s 添加 %d 个图像: %s',
 
   // src/applications/pholio/storage/PholioTransaction.php:169
-  '%s added %d inline comment(s).' => null,
+  '%s added %d inline comment(s).' => '%s 添加 %d 个内嵌评论',
 
   // src/applications/conpherence/storage/ConpherenceTransaction.php:109
   '%s added %d participant(s): %s.' => null,
@@ -384,7 +384,7 @@ return array(
   '%s added %d project hashtag(s): %s.' => null,
 
   // src/applications/project/storage/PhabricatorProjectTransaction.php:220
-  '%s added %d project member(s): %s.' => null,
+  '%s added %d project member(s): %s.' => '%s 添加 ％d 个项目成员: %s',
 
   // src/applications/transactions/storage/PhabricatorApplicationTransaction.php:672
   '%s added %d subscriber(s): %s.' => '%s 添加了 %s 个订阅者: %s',
@@ -3829,7 +3829,7 @@ return array(
   'Active Resources' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:214
-  'Active Revisions' => null,
+  'Active Revisions' => '活跃的评审',
 
   // src/applications/macro/query/PhabricatorMacroQuery.php:27
   'Active and Disabled Macros' => null,
@@ -3845,7 +3845,7 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleController.php:36
   // src/applications/settings/panel/PhabricatorActivitySettingsPanel.php:14
-  'Activity Logs' => '活跃日志',
+  'Activity Logs' => '活动日志',
 
   // src/applications/people/view/PhabricatorUserLogView.php:77
   'Actor' => null,
@@ -4506,7 +4506,7 @@ return array(
   'All Resources' => null,
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:218
-  'All Revisions' => null,
+  'All Revisions' => '所有待评审',
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:97
   'All Rooms' => null,
