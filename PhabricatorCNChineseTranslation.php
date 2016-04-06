@@ -3782,7 +3782,7 @@ return array(
   // src/applications/releeph/controller/branch/ReleephBranchViewController.php:135
   // src/applications/diffusion/controller/DiffusionRepositoryEditMainController.php:42
   // src/applications/diffusion/controller/DiffusionRepositoryController.php:223
-  'Active' => null,
+  'Active' => '当前',
 
   // src/applications/conduit/settings/PhabricatorConduitTokensSettingsPanel.php:109
   'Active API Tokens' => null,
@@ -4387,7 +4387,7 @@ return array(
   'All Charges' => null,
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:131
-  'All Commits' => null,
+  'All Commits' => '所有提交',
 
   // src/applications/passphrase/query/PassphraseCredentialSearchEngine.php:73
   'All Credentials' => null,
@@ -4399,11 +4399,11 @@ return array(
   'All Daemons' => null,
 
   // src/applications/dashboard/query/PhabricatorDashboardSearchEngine.php:34
-  'All Dashboards' => null,
+  'All Dashboards' => '所有控制台',
 
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:366
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:420
-  'All Day Event' => null,
+  'All Day Event' => '全天事件',
 
   // src/applications/almanac/query/AlmanacDeviceSearchEngine.php:36
   'All Devices' => '全部设备',
@@ -4422,7 +4422,7 @@ return array(
   'All Harbormaster APIs are new and subject to change.' => null,
 
   // src/applications/uiexample/examples/PhabricatorStatusUIExample.php:82
-  'All Icons' => null,
+  'All Icons' => '全部图标',
 
   // src/applications/fund/query/FundInitiativeSearchEngine.php:86
   'All Initiatives' => null,
@@ -4434,7 +4434,7 @@ return array(
   'All Lint' => null,
 
   // src/applications/drydock/query/DrydockLogSearchEngine.php:31
-  'All Logs' => null,
+  'All Logs' => '所有日志',
 
   // src/applications/phortune/query/PhortuneMerchantSearchEngine.php:36
   'All Merchants' => null,
@@ -4446,7 +4446,7 @@ return array(
   'All Methods' => null,
 
   // src/applications/pholio/query/PholioMockSearchEngine.php:56
-  'All Mocks' => null,
+  'All Mocks' => '全部原型设计',
 
   // src/applications/almanac/query/AlmanacNetworkSearchEngine.php:36
   'All Networks' => null,
@@ -4458,7 +4458,7 @@ return array(
   'All Object Types' => null,
 
   // src/applications/search/controller/PhabricatorSearchAttachController.php:270
-  'All Open %s' => null,
+  'All Open %s' => '所有进行中的 %s',
 
   // src/applications/owners/query/PhabricatorOwnersPackageSearchEngine.php:88
   'All Packages' => null,
@@ -4476,7 +4476,7 @@ return array(
   'All Polls' => null,
 
   // src/applications/phame/controller/PhameController.php:19
-  'All Posts' => null,
+  'All Posts' => '所有发布 (Posts)',
 
   // src/applications/auth/query/PhabricatorAuthProviderConfigQuery.php:37
   'All Providers' => null,
@@ -4509,16 +4509,16 @@ return array(
   'All Revisions' => '所有待评审',
 
   // src/applications/conpherence/query/ConpherenceThreadSearchEngine.php:97
-  'All Rooms' => null,
+  'All Rooms' => '所有房间',
 
   // src/applications/herald/controller/HeraldTranscriptController.php:164
-  'All Rules' => null,
+  'All Rules' => '全部规则',
 
   // src/applications/almanac/query/AlmanacServiceSearchEngine.php:42
-  'All Services' => null,
+  'All Services' => '全部服务',
 
   // src/applications/config/controller/PhabricatorConfigController.php:16
-  'All Settings' => null,
+  'All Settings' => '所有设置',
 
   // src/applications/legalpad/query/LegalpadDocumentSignatureSearchEngine.php:122
   'All Signatures' => null,
@@ -4533,7 +4533,7 @@ return array(
   'All Stories' => null,
 
   // src/applications/phortune/query/PhortuneSubscriptionSearchEngine.php:109
-  'All Subscriptions' => null,
+  'All Subscriptions' => '所有订阅',
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:452
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:235
@@ -5147,10 +5147,10 @@ return array(
 
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:115
   // src/applications/project/controller/PhabricatorProjectBoardViewController.php:155
-  'Apply Filter' => null,
+  'Apply Filter' => '应用过滤器',
 
   // src/applications/differential/customfield/DifferentialApplyPatchField.php:11
-  'Apply Patch' => null,
+  'Apply Patch' => '应用补丁 (Patch)',
 
   // src/applications/transactions/response/PhabricatorApplicationTransactionNoEffectResponse.php:41
   'Apply Remaining Actions' => null,
@@ -5165,19 +5165,19 @@ return array(
   'Approval (Multiple Choice)' => null,
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:149
-  'Approval Queue' => null,
+  'Approval Queue' => '批准队列',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:241
-  'Approve' => null,
+  'Approve' => '批准',
 
   // src/applications/people/controller/PhabricatorPeopleApproveController.php:64
-  'Approve Account' => null,
+  'Approve Account' => '批准账户',
 
   // src/applications/releeph/view/ReleephRequestView.php:140
-  'Approve Pull' => null,
+  'Approve Pull' => '批准拉取 (Pull)',
 
   // src/applications/people/storage/PhabricatorUserLog.php:68
-  'Approve Registration' => null,
+  'Approve Registration' => '批准注册',
 
   // src/applications/releeph/field/specification/ReleephIntentFieldSpecification.php:86
   'Approved By' => null,
@@ -5259,7 +5259,7 @@ return array(
   'Are you sure you want to hide this column? It will no longer appear on the workboard.' => null,
 
   // src/applications/auth/controller/PhabricatorLogoutController.php:63
-  'Are you sure you want to log out?' => null,
+  'Are you sure you want to log out?' => '确定要退出吗？',
 
   // src/applications/dashboard/controller/PhabricatorDashboardRemovePanelController.php:73
   'Are you sure you want to remove this panel?' => null,
@@ -5702,7 +5702,7 @@ return array(
   'Authored' => '我创建的',
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:128
-  'Authored Commits' => null,
+  'Authored Commits' => '我的提交',
 
   // src/applications/herald/query/HeraldRuleSearchEngine.php:187
   'Authored by %s' => null,
@@ -11218,10 +11218,10 @@ return array(
   'Edit Payment Provider %d %s' => null,
 
   // src/applications/pholio/event/PholioActionMenuEventListener.php:43
-  'Edit Pholio Mocks' => "编辑Pholio Mocks",
+  'Edit Pholio Mocks' => "编辑设计原型",
 
   // src/applications/phriction/controller/PhrictionEditController.php:181
-  'Edit Phriction Document' => "编辑Phriction文档",
+  'Edit Phriction Document' => "编辑 Phriction 文档",
 
   // src/applications/project/controller/PhabricatorProjectProfileController.php:98
   'Edit Picture' => "编辑图片",
@@ -11554,33 +11554,33 @@ return array(
 
   // src/applications/people/controller/PhabricatorPeopleController.php:37
   // src/applications/auth/query/PhabricatorAuthInviteSearchEngine.php:106
-  'Email Invitations' => null,
+  'Email Invitations' => '邮件邀请',
 
   // src/applications/auth/query/PhabricatorAuthInviteSearchEngine.php:7
   'Email Invites' => null,
 
   // src/applications/settings/panel/PhabricatorEmailPreferencesSettingsPanel.php:80
-  'Email Notifications' => null,
+  'Email Notifications' => '邮件通知',
 
   // src/applications/paste/mail/PasteCreateMailReceiver.php:21
   'Email Paste' => null,
 
   // src/applications/settings/panel/PhabricatorEmailPreferencesSettingsPanel.php:11
   // src/applications/settings/panel/PhabricatorEmailPreferencesSettingsPanel.php:181
-  'Email Preferences' => null,
+  'Email Preferences' => '邮件选项',
 
   // src/applications/auth/controller/PhabricatorEmailLoginController.php:116
   // src/applications/auth/controller/PhabricatorMustVerifyEmailController.php:33
-  'Email Sent' => null,
+  'Email Sent' => '已发送邮件',
 
   // src/applications/people/storage/PhabricatorExternalAccount.php:122
-  'Email User' => null,
+  'Email User' => '邮件用户',
 
   // src/applications/base/controller/__tests__/PhabricatorAccessControlTestCase.php:85
-  'Email Verification Required' => null,
+  'Email Verification Required' => 'Email 需要验证',
 
   // src/applications/base/controller/__tests__/PhabricatorAccessControlTestCase.php:100
-  'Email Verification Required, With Exception' => null,
+  'Email Verification Required, With Exception' => '验证 Email 时有问题发生',
 
   // src/applications/people/storage/PhabricatorUserEmail.php:135
   'Email address must be @%s' => null,
@@ -11592,7 +11592,7 @@ return array(
   'Email addresses should be in the form \'%s\'. The maximum length of an email address is %s character(s).' => null,
 
   // src/applications/legalpad/controller/LegalpadDocumentSignController.php:560
-  'Email field is required.' => null,
+  'Email field is required.' => 'Email 必须填写',
 
   // src/applications/people/editor/PhabricatorUserEditor.php:42
   // src/applications/people/editor/PhabricatorUserEditor.php:413
@@ -14783,7 +14783,7 @@ return array(
   'Joinable By' => null,
 
   // src/applications/project/query/PhabricatorProjectSearchEngine.php:82
-  'Joined' => null,
+  'Joined' => '我加入的',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:66
   'Joined After' => null,
@@ -15523,7 +15523,7 @@ return array(
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:177
   // src/applications/auth/controller/PhabricatorAuthStartController.php:186
   // src/applications/auth/controller/PhabricatorAuthOneTimeLoginController.php:167
-  'Login to Phabricator' => '登录Phabricator',
+  'Login to Phabricator' => '登录 Phabricator',
 
   // src/applications/diffusion/config/PhabricatorDiffusionConfigOptions.php:120
   'Login username for SSH connections to repositories.' => null,
@@ -16664,18 +16664,18 @@ return array(
   'Navel Orange' => null,
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:121
-  'Need Attention' => null,
+  'Need Attention' => '需要关心',
 
   // src/applications/uiexample/examples/PHUIActionPanelExample.php:51
   'Need a backup of all your kitten memes?' => null,
 
   // src/applications/diviner/atom/DivinerAtom.php:399
   // src/applications/diviner/atom/DivinerAtom.php:430
-  'Need translation for \'%s\'.' => null,
+  'Need translation for \'%s\'.' => '\'%s\' 需要翻译 ',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:58
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:213
-  'Needs Approval' => null,
+  'Needs Approval' => '需要批准',
 
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:134
   // src/applications/releeph/constants/ReleephRequestStatus.php:20
@@ -16683,13 +16683,13 @@ return array(
 
   // src/applications/releeph/query/ReleephRequestSearchEngine.php:138
   // src/applications/releeph/constants/ReleephRequestStatus.php:21
-  'Needs Revert' => null,
+  'Needs Revert' => '需要撤销',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:249
-  'Needs Review' => null,
+  'Needs Review' => '需要审查',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:250
-  'Needs Revision' => null,
+  'Needs Revision' => '需要提交版本',
 
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:44
   // src/applications/uiexample/examples/PHUIInfoPanelExample.php:54
@@ -17971,7 +17971,7 @@ return array(
   'Notification Server Version' => null,
 
   // src/applications/notification/controller/PhabricatorNotificationPanelController.php:58
-  'Notification Server not enabled.' => null,
+  'Notification Server not enabled.' => '通知服务器未启用',
 
   // src/applications/config/option/PhabricatorNotificationConfigOptions.php:7
   // src/applications/uiexample/examples/PhabricatorNotificationUIExample.php:6
@@ -18423,13 +18423,13 @@ return array(
   // src/applications/diffusion/view/DiffusionBranchTableView.php:85
   // src/applications/diffusion/controller/DiffusionRefTableController.php:87
   // src/applications/diffusion/controller/DiffusionRefTableController.php:94
-  'Open' => null,
+  'Open' => '打开',
 
   // src/applications/differential/view/DifferentialDiffTableOfContentsView.php:197
   'Open All in Editor' => null,
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:125
-  'Open Audits' => null,
+  'Open Audits' => '进行中的复查',
 
   // src/applications/releeph/query/ReleephBranchSearchEngine.php:90
   'Open Branches' => null,
@@ -18447,7 +18447,7 @@ return array(
   'Open Initiatives' => null,
 
   // src/applications/pholio/query/PholioMockSearchEngine.php:55
-  'Open Mocks' => null,
+  'Open Mocks' => '进行中的原型',
 
   // src/applications/slowvote/query/PhabricatorSlowvoteSearchEngine.php:90
   'Open Polls' => null,
@@ -19594,13 +19594,13 @@ return array(
 
   // src/applications/pholio/application/PhabricatorPholioApplication.php:64
   // src/applications/pholio/phid/PholioMockPHIDType.php:8
-  'Pholio Mock' => null,
+  'Pholio Mock' => '设计原型',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:491
   // src/applications/herald/adapter/HeraldPholioMockAdapter.php:32
   // src/applications/pholio/query/PholioMockSearchEngine.php:6
   // src/applications/pholio/editor/PholioMockEditor.php:12
-  'Pholio Mocks' => null,
+  'Pholio Mocks' => '设计原型',
 
   // src/applications/phortune/application/PhabricatorPhortuneApplication.php:6
   // src/applications/phortune/controller/PhortuneProviderActionController.php:50
@@ -20060,10 +20060,10 @@ return array(
 
   // src/applications/audit/query/PhabricatorCommitSearchEngine.php:122
   // src/applications/home/controller/PhabricatorHomeMainController.php:412
-  'Problem Commits' => null,
+  'Problem Commits' => '有问题的提交',
 
   // src/applications/diffusion/controller/DiffusionLintController.php:93
-  'Problems' => null,
+  'Problems' => '问题',
 
   // src/applications/daemon/management/PhabricatorDaemonManagementWorkflow.php:575
   'Process %d exited.' => null,
@@ -20696,7 +20696,7 @@ return array(
   'Question Preview' => null,
 
   // src/applications/ponder/application/PhabricatorPonderApplication.php:14
-  'Questions and Answers' => null,
+  'Questions and Answers' => '问答系统',
 
   // src/applications/nuance/phid/NuanceQueuePHIDType.php:8
   'Queue' => null,
@@ -21393,7 +21393,7 @@ return array(
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:183
   // src/applications/auth/engine/PhabricatorAuthInviteEngine.php:114
-  'Register New Account' => null,
+  'Register New Account' => '注册新账户',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:489
   'Register Phabricator Account' => null,
@@ -30042,7 +30042,7 @@ return array(
   'User Policy' => '用户策略',
 
   // src/applications/settings/application/PhabricatorSettingsApplication.php:14
-  'User Preferences' => null,
+  'User Preferences' => '用户设置',
 
   // src/applications/people/config/PhabricatorUserConfigOptions.php:7
   // src/applications/people/editor/PhabricatorUserProfileEditor.php:11
@@ -30112,41 +30112,41 @@ return array(
   // src/applications/people/controller/PhabricatorPeopleNewController.php:148
   // src/applications/passphrase/controller/PassphraseCredentialViewController.php:186
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:149
-  'Username' => null,
+  'Username' => '用户名',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:213
   'Username Attribute' => null,
 
   // src/applications/people/controller/PhabricatorPeopleNewController.php:113
-  'Username and email must be unique.' => null,
+  'Username and email must be unique.' => '用户名和邮件必须唯一',
 
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:169
-  'Username and password are required!' => null,
+  'Username and password are required!' => '必须输入用户名和密码',
 
   // src/applications/config/option/PhabricatorPHPMailerConfigOptions.php:54
   'Username for SMTP.' => null,
 
   // src/applications/people/editor/PhabricatorUserEditor.php:48
   // src/applications/people/editor/PhabricatorUserEditor.php:171
-  'Username is invalid! %s' => null,
+  'Username is invalid! %s' => '用户名不合适！％s',
 
   // src/applications/people/controller/PhabricatorPeopleNewController.php:58
   // src/applications/passphrase/editor/PassphraseCredentialTransactionEditor.php:185
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:217
-  'Username is required.' => null,
+  'Username is required.' => '必须填写用户名',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:230
-  'Username or Email' => null,
+  'Username or Email' => '用户名或邮件地址',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:218
   // src/applications/auth/provider/PhabricatorLDAPAuthProvider.php:105
-  'Username or password are incorrect.' => null,
+  'Username or password are incorrect.' => '用户名或密码验证错误',
 
   // src/applications/auth/provider/PhabricatorPasswordAuthProvider.php:8
-  'Username/Password' => null,
+  'Username/Password' => '用户名/密码',
 
   // src/applications/people/query/PhabricatorPeopleSearchEngine.php:23
-  'Usernames' => null,
+  'Usernames' => '用户名',
 
   // src/applications/people/storage/PhabricatorUser.php:695
   'Usernames must contain only numbers, letters, period, underscore and hyphen, and can not end with a period. They must have no more than %d characters.' => null,
@@ -31848,11 +31848,11 @@ return array(
   'You have no linked accounts.' => null,
 
   // src/applications/conpherence/controller/ConpherenceNotificationPanelController.php:75
-  'You have no messages.' => null,
+  'You have no messages.' => '还没有你的消息',
 
   // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:104
   // src/applications/notification/controller/PhabricatorNotificationPanelController.php:30
-  'You have no notifications.' => null,
+  'You have no notifications.' => '还没有你的通知',
 
   // src/applications/differential/query/DifferentialRevisionSearchEngine.php:300
   'You have no revisions waiting on others.' => null,
