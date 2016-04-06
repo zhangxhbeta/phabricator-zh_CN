@@ -390,10 +390,10 @@ return array(
   '%s added %d subscriber(s): %s.' => '%s 添加了 %s 个订阅者: %s',
 
   // src/applications/phortune/edge/PhortuneAccountHasMemberEdgeType.php:60
-  '%s added %s account member(s) to %s: %s.' => null,
+  '%s added %s account member(s) to %s: %s.' => '%s 添加 %s 账户成员到 %s: %s.',
 
   // src/applications/phortune/edge/PhortuneAccountHasMemberEdgeType.php:17
-  '%s added %s account member(s): %s.' => null,
+  '%s added %s account member(s): %s.' => '%s 添加 %s 账户成员: %s.',
 
   // src/applications/ponder/edge/PonderVotingUserHasAnswerEdgeType.php:64
   '%s added %s answer(s) to %s: %s.' => null,
@@ -466,10 +466,10 @@ return array(
   '%s added %s merchant member(s): %s.' => null,
 
   // src/applications/maniphest/edge/ManiphestTaskHasMockEdgeType.php:63
-  '%s added %s mock(s) for %s: %s.' => null,
+  '%s added %s mock(s) for %s: %s.' => '%s 添加 %s 原型给 %s: %s.',
 
   // src/applications/maniphest/edge/ManiphestTaskHasMockEdgeType.php:21
-  '%s added %s mock(s): %s.' => null,
+  '%s added %s mock(s): %s.' => '%s 添加 %s 原型: %s.',
 
   // src/applications/owners/storage/PhabricatorOwnersPackageTransaction.php:90
   '%s added %s owner(s): %s.' => null,
@@ -8579,33 +8579,33 @@ return array(
   // src/applications/phriction/controller/PhrictionEditController.php:277
   // src/applications/paste/controller/PhabricatorPasteEditController.php:215
   // src/applications/pholio/controller/PholioMockEditController.php:240
-  'Create' => null,
+  'Create' => '创建',
 
   // src/applications/phortune/controller/PhortuneAccountListController.php:56
   // src/applications/phortune/controller/PhortuneAccountEditController.php:87
   // src/applications/phortune/controller/PhortuneAccountEditController.php:90
   // src/applications/people/storage/PhabricatorUserLog.php:62
-  'Create Account' => null,
+  'Create Account' => '创建账户',
 
   // src/applications/auth/controller/PhabricatorAuthRegisterController.php:485
-  'Create Admin Account' => null,
+  'Create Admin Account' => '创建管理账户',
 
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:96
-  'Create Another Subtask' => null,
+  'Create Another Subtask' => '创建其他子任务',
 
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientEditController.php:37
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientEditController.php:38
   // src/applications/oauthserver/controller/client/PhabricatorOAuthClientListController.php:34
-  'Create Application' => null,
+  'Create Application' => '创建应用',
 
   // src/applications/almanac/controller/AlmanacBindingEditController.php:47
   // src/applications/almanac/controller/AlmanacBindingEditController.php:48
   // src/applications/almanac/controller/AlmanacBindingEditController.php:108
-  'Create Binding' => null,
+  'Create Binding' => '创建绑定',
 
   // src/applications/phame/controller/blog/PhameBlogEditController.php:29
   // src/applications/phame/controller/blog/PhameBlogEditController.php:30
-  'Create Blog' => null,
+  'Create Blog' => '创建博客',
 
   // src/applications/drydock/controller/DrydockBlueprintEditController.php:150
   'Create Blueprint' => null,
@@ -8614,27 +8614,27 @@ return array(
   'Create Bot User' => null,
 
   // src/applications/harbormaster/controller/HarbormasterPlanEditController.php:65
-  'Create Build Plan' => null,
+  'Create Build Plan' => '新建构建计划',
 
   // src/applications/harbormaster/controller/HarbormasterStepEditController.php:160
-  'Create Build Step' => null,
+  'Create Build Step' => '新建构建步骤',
 
   // src/applications/oauthserver/controller/PhabricatorOAuthServerController.php:16
-  'Create Client' => null,
+  'Create Client' => '创建客户端',
 
   // src/applications/project/controller/PhabricatorProjectColumnEditController.php:137
   // src/applications/project/controller/PhabricatorProjectColumnEditController.php:138
-  'Create Column' => null,
+  'Create Column' => '创建列',
 
   // src/applications/dashboard/controller/PhabricatorDashboardCopyController.php:65
-  'Create Copy' => null,
+  'Create Copy' => '创建复本',
 
   // src/applications/countdown/controller/PhabricatorCountdownController.php:12
   // src/applications/countdown/controller/PhabricatorCountdownController.php:33
   // src/applications/countdown/controller/PhabricatorCountdownEditController.php:34
   // src/applications/countdown/controller/PhabricatorCountdownEditController.php:81
   // src/applications/countdown/controller/PhabricatorCountdownEditController.php:82
-  'Create Countdown' => null,
+  'Create Countdown' => '创建倒计时',
 
   // src/applications/passphrase/controller/PassphraseController.php:12
   // src/applications/passphrase/controller/PassphraseController.php:33
@@ -8651,16 +8651,16 @@ return array(
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:59
   // src/applications/dashboard/controller/PhabricatorDashboardEditController.php:201
   // src/applications/dashboard/controller/PhabricatorDashboardListController.php:48
-  'Create Dashboard' => null,
+  'Create Dashboard' => '创建控制台',
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:338
-  'Create Dashboard Panel' => null,
+  'Create Dashboard Panel' => '创建控制台面板',
 
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:39
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:40
   // src/applications/almanac/controller/AlmanacDeviceEditController.php:148
   // src/applications/almanac/controller/AlmanacDeviceListController.php:27
-  'Create Device' => null,
+  'Create Device' => '创建设备',
 
   // src/applications/differential/controller/DifferentialDiffCreateController.php:128
   // src/applications/differential/controller/DifferentialDiffCreateController.php:130
@@ -8673,14 +8673,14 @@ return array(
   // src/applications/legalpad/controller/LegalpadDocumentListController.php:32
   // src/applications/phriction/controller/PhrictionEditController.php:190
   // src/applications/phriction/controller/PhrictionEditController.php:191
-  'Create Document' => null,
+  'Create Document' => '创建文档',
 
   // src/applications/calendar/controller/PhabricatorCalendarController.php:21
   // src/applications/calendar/controller/PhabricatorCalendarEventEditController.php:74
-  'Create Event' => null,
+  'Create Event' => '创建事件',
 
   // src/applications/flag/controller/PhabricatorFlagEditController.php:88
-  'Create Flag' => null,
+  'Create Flag' => '创建标记',
 
   // src/applications/phragment/controller/PhragmentBrowseController.php:35
   // src/applications/phragment/controller/PhragmentHistoryController.php:32
@@ -8735,7 +8735,7 @@ return array(
   // src/applications/pholio/controller/PholioController.php:16
   // src/applications/pholio/controller/PholioController.php:29
   // src/applications/pholio/controller/PholioMockEditController.php:40
-  'Create Mock' => null,
+  'Create Mock' => '创建原型',
 
   // src/applications/almanac/controller/AlmanacNetworkEditController.php:39
   // src/applications/almanac/controller/AlmanacNetworkEditController.php:40
@@ -8757,7 +8757,7 @@ return array(
   'Create New Differential Revision' => null,
 
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:95
-  'Create New Panel' => null,
+  'Create New Panel' => '创建新的面板',
 
   // src/applications/paste/controller/PhabricatorPasteEditController.php:214
   'Create New Paste' => null,
@@ -8774,7 +8774,7 @@ return array(
   'Create New Project' => '创建新项目',
 
   // src/applications/differential/controller/DifferentialDiffViewController.php:34
-  'Create New Revision' => null,
+  'Create New Revision' => '创建新的待审查版本',
 
   // src/applications/maniphest/controller/ManiphestTaskEditController.php:554
   'Create New Subtask' => '创建新的子任务',
@@ -8799,12 +8799,12 @@ return array(
 
   // src/applications/owners/controller/PhabricatorOwnersListController.php:26
   // src/applications/owners/controller/PhabricatorOwnersListController.php:47
-  'Create Package' => null,
+  'Create Package' => '创建包',
 
   // src/applications/dashboard/engine/PhabricatorDashboardRenderingEngine.php:116
   // src/applications/dashboard/controller/PhabricatorDashboardPanelEditController.php:96
   // src/applications/dashboard/controller/PhabricatorDashboardPanelListController.php:47
-  'Create Panel' => null,
+  'Create Panel' => '创建面板',
 
   // src/applications/paste/controller/PhabricatorPasteEditController.php:213
   // src/applications/paste/controller/PhabricatorPasteController.php:12
@@ -8832,7 +8832,7 @@ return array(
   // src/applications/releeph/controller/ReleephController.php:25
   // src/applications/releeph/controller/product/ReleephProductViewController.php:135
   // src/applications/releeph/controller/product/ReleephProductListController.php:29
-  'Create Product' => null,
+  'Create Product' => '创建产品',
 
   // src/applications/project/controller/PhabricatorProjectController.php:38
   // src/applications/project/controller/PhabricatorProjectListController.php:37
@@ -8847,47 +8847,47 @@ return array(
 
   // src/applications/releeph/controller/request/ReleephRequestEditController.php:288
   // src/applications/releeph/controller/request/ReleephRequestEditController.php:289
-  'Create Pull Request' => null,
+  'Create Pull Request' => '创建拉取请求 (Pull Request)',
 
   // src/applications/ponder/controller/PonderController.php:25
-  'Create Question' => null,
+  'Create Question' => '创建问题',
 
   // src/applications/nuance/controller/NuanceQueueListController.php:39
   // src/applications/nuance/controller/NuanceQueueEditController.php:78
-  'Create Queue' => null,
+  'Create Queue' => '创建队列',
 
   // src/applications/releeph/controller/product/ReleephProductCreateController.php:93
-  'Create Release Product' => null,
+  'Create Release Product' => '创建发布产品',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:94
-  'Create Repository' => null,
+  'Create Repository' => '创建仓库',
 
   // src/applications/diffusion/controller/DiffusionRepositoryCreateController.php:815
-  'Create Repository Now' => null,
+  'Create Repository Now' => '立即创建仓库',
 
   // src/applications/conpherence/controller/ConpherenceRoomListController.php:36
   // src/applications/conpherence/controller/ConpherenceNewRoomController.php:66
-  'Create Room' => null,
+  'Create Room' => '创建房间',
 
   // src/applications/herald/controller/HeraldNewController.php:208
   // src/applications/herald/controller/HeraldTranscriptListController.php:14
   // src/applications/herald/controller/HeraldController.php:42
-  'Create Rule' => null,
+  'Create Rule' => '创建规则',
 
   // src/applications/almanac/controller/AlmanacServiceListController.php:27
   // src/applications/almanac/controller/AlmanacServiceEditController.php:54
   // src/applications/almanac/controller/AlmanacServiceEditController.php:55
   // src/applications/almanac/controller/AlmanacServiceEditController.php:165
   // src/applications/almanac/controller/AlmanacServiceEditController.php:226
-  'Create Service' => null,
+  'Create Service' => '创建服务',
 
   // src/applications/slowvote/controller/PhabricatorSlowvoteEditController.php:218
-  'Create Slowvote' => null,
+  'Create Slowvote' => '创建慢投票',
 
   // src/applications/phragment/controller/PhragmentController.php:148
   // src/applications/phragment/controller/PhragmentSnapshotCreateController.php:147
   // src/applications/phragment/controller/PhragmentSnapshotCreateController.php:155
-  'Create Snapshot' => null,
+  'Create Snapshot' => '创建快照',
 
   // src/applications/phragment/controller/PhragmentSnapshotCreateController.php:158
   'Create Snapshot of %s' => null,
@@ -8902,7 +8902,7 @@ return array(
   'Create Space' => null,
 
   // src/applications/people/controller/PhabricatorPeopleCreateController.php:49
-  'Create Standard User' => null,
+  'Create Standard User' => '创建标准用户',
 
   // src/applications/uiexample/examples/PhabricatorHovercardUIExample.php:50
   // src/applications/maniphest/controller/ManiphestTaskDetailController.php:426
@@ -9062,7 +9062,7 @@ return array(
   // src/applications/paste/controller/PhabricatorPasteViewController.php:183
   // src/applications/pholio/controller/PholioMockViewController.php:173
   // src/applications/diffusion/view/DiffusionTagListView.php:99
-  'Created' => null,
+  '创建' => null,
 
   // src/applications/files/query/PhabricatorFileSearchEngine.php:33
   // src/applications/maniphest/query/ManiphestTaskSearchEngine.php:91
