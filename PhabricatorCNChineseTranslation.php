@@ -15923,7 +15923,7 @@ return array(
   // src/applications/notification/query/PhabricatorNotificationSearchEngine.php:95
   // src/applications/notification/controller/PhabricatorNotificationPanelController.php:40
   // src/applications/notification/controller/PhabricatorNotificationClearController.php:46
-  'Mark All Read' => null,
+  'Mark All Read' => '全部标记为已读',
 
   // src/applications/repository/management/PhabricatorRepositoryManagementMarkImportedWorkflow.php:10
   'Mark __repository__, named by callsign, as imported.' => null,
